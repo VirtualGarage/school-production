@@ -16,10 +16,11 @@ $config['ci_front_banner_content']  = 'banner';
 $config['ci_front_home_page_slug']  = 'home';
 $config['ci_front_themes']          = array(
     'default'       => 'theme_default.jpg',
-    'yellow'        => 'theme_yellow.jpg',
-    'darkgray'      => 'theme_darkgray.jpg',
-    'bold_blue'     => 'theme_bold_blue.jpg',
-    'shadow_white'  => 'theme_shadow_white.jpg',
-    'material_pink' => 'theme_material_pink.jpg',
+    // 'yellow'        => 'theme_yellow.jpg',
+    // 'darkgray'      => 'theme_darkgray.jpg',
+    // 'bold_blue'     => 'theme_bold_blue.jpg',
+    // 'shadow_white'  => 'theme_shadow_white.jpg',
+    // 'material_pink' => 'theme_material_pink.jpg',
+    'bright_scholar' => 'theme_default.jpg',
 );
 $config['ci_course_detail_url'] = 'course/coursedetail/';

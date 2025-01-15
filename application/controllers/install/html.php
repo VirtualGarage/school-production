@@ -128,7 +128,7 @@
                     <div class="col-md-12">
                         <div class="col-md-3">
                             <a href="<?php echo base_url(); ?>"><img src="../backend/images/s_logo.png"></a></div>
-                        <div class="col-md-9"><h3 class="header">Smart School : School Management System - Installer</h3></div>
+                        <div class="col-md-9"><h3 class="header">Virtual Garage : School Management System - Installer</h3></div>
                     </div><!--./col-md-12-->
                 </div><!--./row-->
             </div><!--./container-->

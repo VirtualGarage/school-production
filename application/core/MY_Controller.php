@@ -313,6 +313,10 @@ class Front_Controller extends CI_Controller
         $menu_list                    = $this->cms_menu_model->getBySlug('main-menu');
 
         $footer_menu_list = $this->cms_menu_model->getBySlug('bottom-menu');
+        $footer_feature_menu = $this->cms_menu_model->getBySlug('bottom-feature-menu');
+        if(count($footer_feature_menu) > 0) {
+            $this->data['feature_menus'] = $this->cms_menuitems_model->getMenus($footer_feature_menu['id']);
+        }
         if (count($menu_list) > 0) {
             $this->data['main_menus'] = $this->cms_menuitems_model->getMenus($menu_list['id']);
         }

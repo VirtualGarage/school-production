@@ -2364,3 +2364,4 @@ $lang['manual']="ম্যানুয়াল";
 $lang['staff_day_wise_attendance_report']="স্টাফ ডে ওয়াইজ অ্যাটেনডেন্স রিপোর্ট";
 $lang['student_day_wise_attendance_report']="ছাত্র দিবস অনুযায়ী উপস্থিতি রিপোর্ট";
 $lang['scan_location']= "Scan Location";
+$lang['teacher_login']= "শিক্ষক লগইন";
